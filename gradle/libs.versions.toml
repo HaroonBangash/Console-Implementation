@@ -1,0 +1,12 @@
+[versions]
+javafx = "21.0.4"
+jackson = "2.18.2"
+junit-jupiter = "5.12.1"
+
+[libraries]
+javafxControls = { module = "org.openjfx:javafx-controls", version.ref = "javafx" }
+javafxFxml = { module = "org.openjfx:javafx-fxml", version.ref = "javafx" }
+jacksonDatabind = { module = "com.fasterxml.jackson.core:jackson-databind", version.ref = "jackson" }
+jacksonAnnotations = { module = "com.fasterxml.jackson.core:jackson-annotations", version.ref = "jackson" }
+jacksonDatatypeJsr310 = { module = "com.fasterxml.jackson.datatype:jackson-datatype-jsr310", version.ref = "jackson" }
+junitJupiter = { module = "org.junit.jupiter:junit-jupiter", version.ref = "junit-jupiter" }
